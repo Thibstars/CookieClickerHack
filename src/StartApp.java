@@ -57,6 +57,6 @@ public class StartApp {
 
         Thread buyUpgradesThread = new BuyUpgradesThread();
         buyUpgradesThread.setPriority(Thread.MAX_PRIORITY);
-        executor.execute(buyProductsThread);
+        executor.execute(buyUpgradesThread);
     }
 }

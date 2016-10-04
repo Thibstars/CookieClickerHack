@@ -35,8 +35,10 @@ public class BuyUpgradesThread extends Thread {
     @Override
     public void run() {
         while (true) {
-            if (upgrades.size() > 13) populateUpgrades();
-            buyUpgrades(upgrades);
+            if (upgrades.size() <= 13) {
+                populateUpgrades();
+                buyUpgrades(upgrades);
+            }
         }
     }
 
