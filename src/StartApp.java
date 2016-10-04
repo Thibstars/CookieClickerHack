@@ -39,7 +39,7 @@ public class StartApp {
         Navigator.getInstance().click(acceptCookies);
 
         //TODO use following element to dismiss notifications
-        WebElement closeSideNote = Navigator.getInstance().getDriver().findElement(By.xpath("//*[@id=\"notes\"]/div[3]"));
+        //WebElement closeSideNote = Navigator.getInstance().getDriver().findElement(By.xpath("//*[@id='notes']/div[3]"));
 
         final WebElement bigCookie = sectionLeft.findElement(By.id("bigCookie"));
 
