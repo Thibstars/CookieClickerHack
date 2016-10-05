@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Bromine-0.3-alpha">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/Bromine-0.3-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

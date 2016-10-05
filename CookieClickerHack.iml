@@ -8,6 +8,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Bromine" level="project" />
+    <orderEntry type="library" name="Bromine-0.3-alpha" level="project" />
+    <orderEntry type="library" name="log4j-1.2-api-2.5" level="project" />
+    <orderEntry type="library" name="log4j-api-2.5" level="project" />
+    <orderEntry type="library" name="log4j-core-2.5" level="project" />
   </component>
 </module>
